@@ -7,7 +7,7 @@
    http://www.springframework.org/schema/context/spring-context.xsd  
    ">
 
-	<context:component-scan base-package="net.aron.onlineshopping.controller"/>
+	<context:component-scan base-package="net.aron.shoppingonline.controller"/>
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		
@@ -15,4 +15,4 @@
 		<property name="suffix" value=".jsp" />
 		
 	</bean>
-</beans>	
+</beans>
